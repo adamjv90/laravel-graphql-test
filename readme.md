@@ -14,12 +14,12 @@ Example queries:
 Selecting all Lookbook Designers
 ```
 query FetchLookbookDesigners {
-	lookbook_designers {
-		id
-		email
+  lookbook_designers {
+    id
+    email
     name
     cover
-	}
+  }
 }
 ```
 
