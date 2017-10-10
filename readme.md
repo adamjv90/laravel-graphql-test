@@ -11,7 +11,8 @@ After finishing installation view the [GraphiQL GUI](http://0.0.0.0:3000/graphiq
 
 Example queries:
 
-Selecting all Lookbook Designers ```
+Selecting all Lookbook Designers
+```
 query FetchLookbookDesigners {
 	lookbook_designers {
 		id
@@ -22,7 +23,8 @@ query FetchLookbookDesigners {
 }
 ```
 
-Updating a Lookbook Designers name ```
+Updating a Lookbook Designers name
+```
 mutation lookbook_designers {
 	updateLookbookDesigner(id: "1", name: "Adam Veary") {
 		id
