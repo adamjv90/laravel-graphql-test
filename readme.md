@@ -14,21 +14,21 @@ Example queries:
 Selecting all Lookbook Designers
 ```
 query FetchLookbookDesigners {
-  lookbook_designers {
-    id
-    email
-    name
-    cover
-  }
+    lookbook_designers {
+        id
+        email
+        name
+        cover
+    }
 }
 ```
 
 Updating a Lookbook Designers name
 ```
 mutation lookbook_designers {
-	updateLookbookDesigner(id: "1", name: "Adam Veary") {
-		id
-		name
-	}
+    updateLookbookDesigner(id: "1", name: "Adam Veary") {
+        id
+        name
+    }
 }
 ```
