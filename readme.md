@@ -1,7 +1,7 @@
 ## Installation
 
 - [Install docker](https://www.docker.com/docker-mac)
-- Clone repo `git clone https://github.com/adamjv90/laravel-graphql-test.git & cd laravel-graphql-test`
+- Clone repo `git clone https://github.com/adamjv90/laravel-graphql-test.git && cd laravel-graphql-test`
 - Start the app `docker-compose up`
 - Seed data `docker-compose exec myapp php artisan db:seed`
 
